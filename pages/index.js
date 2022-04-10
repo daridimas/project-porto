@@ -1,8 +1,18 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import axios from 'axios'
+
+export async function getStaticProps() {
+  axios
+    .get("http://localhost:3000/api/profile")
+    .then((result) => console.log(result))
+  return {
+    props: {}
+  }
+}
 
 export default function Home() {
+  console.log("hello bro")
   return (
     <div className={styles.container}>
       <Head>
