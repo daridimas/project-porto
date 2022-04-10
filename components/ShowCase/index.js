@@ -1,9 +1,9 @@
-const LandingPage = () => {
+const ShowCase = () => {
     return (
         <div>
-            <h1>LANDING PAGE TESTING</h1>
+            <div>Showcase Testing</div>
         </div>
-    )
-}
+    );
+};
 
-export default LandingPage
+export default ShowCase;

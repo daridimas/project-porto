@@ -1,3 +1,9 @@
 .landingPage {
     background-color: blanchedalmond;
 }
+
+.userbox {
+    background-color: tomato;
+    margin : 10px;
+    padding : 15px
+}
